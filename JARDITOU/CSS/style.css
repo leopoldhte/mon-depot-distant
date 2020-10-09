@@ -1,0 +1,99 @@
+
+nav
+{
+    background-color: black;
+
+}
+
+nav ul
+{
+    display:flex;
+    list-style: none;
+}
+
+a
+{
+  color: white; 
+  line-height: 70px; 
+  padding-left:20px;
+}
+
+header 
+{
+    display: inline-block;
+    width: 200px;
+    height: 80px;
+}
+ 
+#phrase
+{
+    float: right;
+    margin-right:40%;
+}
+
+.colonnegauche
+{
+
+    display: inline-block;
+    float: left;
+    width: 75%;
+}
+
+section
+{
+    display: flex;
+}
+
+.colonnedroite 
+{
+    flex: 2;
+    display:flex;
+    background-color:rgb(156, 137, 137) ;
+    margin-right:5px;
+    margin-left:5px;
+    margin-top: 5px;
+    padding:0px;
+    height:auto;
+    width:auto;
+
+}
+
+
+/*site web responsive*/
+
+@media screen and (max-width: 768px) 
+{ 
+    html
+    { 
+        font-size : 100%; 
+    } 
+
+    #prase
+    {
+        display:none;
+    }
+
+    ul
+    {
+        display: flex;
+        flex-flow: column;
+        line-height: 1em;
+    } 
+
+    .colonnedroite
+    {
+        display:none;
+    }
+
+    p
+    {
+        font-size: 13px;
+    }
+
+    li
+    {
+     margin-top: -15px;
+     margin-bottom: -20px;
+    }
+    
+}
